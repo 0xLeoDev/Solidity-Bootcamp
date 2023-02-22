@@ -39,6 +39,32 @@
 			},
 			{
 				"inputs": [],
+				"name": "getCurrentPricceOfETH",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPriceInETH",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -48,6 +74,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payInETH",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -104,12 +143,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"Market-palce/marketPlaceItem1.sol": {
-			"keccak256": "0x2ba6cf95079f7ddd431106508f88eeeace45be23f1a8b3111ddd793e7c6a2bb8",
+		"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
+			"keccak256": "0x6e6e4b0835904509406b070ee173b5bc8f677c19421b76be38aea3b1b3d30846",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://60d973bf853f2d38586ed8036ef1bd50e23ceff253a4c7b9e518bf08db0557f7",
-				"dweb:/ipfs/QmbJqBRuXiUBXfePFAK6vu87gSx6yLhDEXvZwX3mat6hCN"
+				"bzz-raw://b3beaa37ee61e4ab615e250fbf01601ae481de843fd0ef55e6b44fd9d5fff8a7",
+				"dweb:/ipfs/QmeZUVwd26LzK4Mfp8Zba5JbQNkZFfTzFu1A6FVMMZDg9c"
+			]
+		},
+		"Market-palce/marketPlaceItem1.sol": {
+			"keccak256": "0x7502fbf6e8c699eafcddb98c077e832e768a3b8a0c41c5650c76c5d9ca1644a4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://62fd759c01f8fcc9bd5e72cab2462e9f4bf51e757d1bc58630908fa63d4d45dd",
+				"dweb:/ipfs/QmUfb9aB3ap7gcRx4UBEgQpt6jUqjkxCHF2ywEAuYtsgNw"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol": {
